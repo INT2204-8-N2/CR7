@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="356.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.UpdateViewController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtWord" layoutX="33.0" layoutY="29.0" />
+      <TextArea fx:id="txtDetail" layoutX="206.0" layoutY="22.0" prefHeight="157.0" prefWidth="200.0" promptText="old detail" />
+      <Button fx:id="btDetail" layoutX="54.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="112.0" text="Detail Update" />
+      <TextArea fx:id="txtDetail1" layoutX="206.0" layoutY="185.0" prefHeight="157.0" prefWidth="200.0" promptText="new detail" />
+    </children>
+</AnchorPane>
