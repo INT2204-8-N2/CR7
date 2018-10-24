@@ -1,4 +1,4 @@
 # CR7
-# link tải Dictionary.
-# thêm 3 thư viện trong file lib.
-#  https://drive.google.com/open?id=1GXYvbqWxLTwAwdlFAqpFizNyjnVjN2LK
+# em đã up được code lên rồi
+# tất cả nằm trong file MyDictionary
+
