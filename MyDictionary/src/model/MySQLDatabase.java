@@ -80,15 +80,6 @@ public class MySQLDatabase {
 	      connectDatabase.close();
               return rs;
 	}
-	public int updatetWord(String word, String col,String change) throws SQLException {
-		connectDatabase = DriverManager.getConnection(connectionURL, userName,password);
-		Statement stmt = connectDatabase.createStatement();
-                System.out.println("UPDATE entries SET "+ col+" = '"+change+"'WHERE word='"+word+"';");
-                int rs = stmt.executeUpdate("UPDATE entries SET "+ col+" = '"+change+"'WHERE word='"+word+"';");// cau lenh try van 
-                System.out.println(rs);
-	        connectDatabase.close();
-                return rs;
-	}
         public String selectID(String word) throws SQLException {
 		 connectDatabase = DriverManager.getConnection(connectionURL, userName,password);
 		Statement stmt = connectDatabase.createStatement();
